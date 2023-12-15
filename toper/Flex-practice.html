@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+           .content {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-shrink: 0;
+    }
+        @media  (max-width: 650){
+            .content{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media  (min-width: 1000px){
+            .content{
+                grid-template-columns: 1fr 1fr 1fr 1fr ;
+            }
+        }
+
+    </style>
+</head>
+
+<body style="padding-bottom: 1000px; margin: 0;">
+    
+
+    <div class="content">
+    <div style="background-color: lightpink;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightblue;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightpink;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightblue;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightpink;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightblue;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightpink;height:200px;">THIS IS THE</div>
+    <div style="background-color: lightblue;height:200px;">THIS IS THE</div>
+
+    </div>
+    
+</body>
+</html>

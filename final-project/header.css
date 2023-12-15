@@ -1,0 +1,31 @@
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    height: 50px;
+   /* background-color    : #000000;
+    /*background-color: #91401E;*/
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+
+}
+.logo{
+    width: 100px;
+}
+.left-section{
+    width: 100px;
+    margin-left: 20px;
+}
+.right-section{
+
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+

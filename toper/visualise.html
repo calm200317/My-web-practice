@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .only1:hover{
+
+            color: black;
+            background-color: #F17336;
+            
+        }
+        .footer{
+            background-color: lightblue;
+            height: 100%;
+            position: fixed;
+            display: flex;
+            bottom: 0;
+        }
+        .content{
+
+            width: 100%;
+            background-color: red;
+            height: 400px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            align-items: center;
+
+
+        }
+        @media (max-width: 750px) {
+            .content{
+                grid-template-columns: 1fr 1fr ;
+            }
+            
+        }
+        
+        .contenent{
+
+            border-width: 1px;
+            border-style: solid;
+            border-color: green;
+            background-color: black;
+            width: 300px;
+            height: 300px;
+            margin-left: 60px;
+        }
+
+        .footer{
+            height: 50px;
+            background-color: black;
+            width: 100%;
+            position: relative;
+
+        }
+
+        .other2{
+            padding-top: 10px;
+            margin-top: 25%;
+            background-color: #95411F;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .other1{
+            background-color: gray;
+            height: 100px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: red;
+            width: 110px;
+
+
+        }
+        a{
+            color: #F7FAFB;
+
+        }
+        .logo{
+            height: 50px;
+        }
+        
+    </style>
+</head>
+
+<body style="margin: 0; 
+background-color: #FAF8AB;
+padding-top: 180px;
+
+
+">
+
+
+
+    <header style="position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #264189;
+    padding: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+    top:0;
+    ">
+    <div>
+        <a id="#" href="../index.html">
+        <img class="logo" src="../hansel_logo.jpg">
+        </a>
+    </div>
+    <div class="only" style="display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: space-between;
+    width: 400px;
+    
+    ">
+
+    <a 
+    class="only1"
+    style="padding:18px; 
+
+    
+    
+    ">for home</a>
+
+
+    <a class="only1"  style="padding:18px;">for about me</a>
+    <a class="only1" style="padding:18px;">for contact us</a>
+    </div>
+    </header>
+    <div class="content">
+    <div class="contenent"></div>
+    <div class="contenent"></div>
+    <div class="contenent"></div>
+    </div>
+
+        <div class="other2">
+            <div class="other1"></div>
+            <div class="other1"></div>
+            <div class="other1"></div>
+            </div>
+
+    <div class="footer">
+xaxax
+    </div>
+</body>
+</html>
